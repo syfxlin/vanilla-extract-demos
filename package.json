@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-extract-demos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "next12:dev": "pnpm --filter next12 dev",
+    "next12:start": "pnpm --filter next12 start",
+    "next12:build": "pnpm --filter next12 build",
+    "next13-appdir:dev": "pnpm --filter next13-appdir dev",
+    "next13-appdir:start": "pnpm --filter next13-appdir start",
+    "next13-appdir:build": "pnpm --filter next13-appdir build",
+    "next13-pagedir:dev": "pnpm --filter next13-pagedir dev",
+    "next13-pagedir:start": "pnpm --filter next13-pagedir start",
+    "next13-pagedir:build": "pnpm --filter next13-pagedir build"
+  }
+}
