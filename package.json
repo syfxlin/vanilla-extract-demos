@@ -11,6 +11,14 @@
     "next13-appdir:build": "pnpm --filter next13-appdir build",
     "next13-pagedir:dev": "pnpm --filter next13-pagedir dev",
     "next13-pagedir:start": "pnpm --filter next13-pagedir start",
-    "next13-pagedir:build": "pnpm --filter next13-pagedir build"
+    "next13-pagedir:build": "pnpm --filter next13-pagedir build",
+    "webpack-default:build": "pnpm --filter webpack-default build",
+    "webpack-next:build": "pnpm --filter webpack-next build"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vanilla-extract/next-plugin": "file:./file/vanilla-extract-next-plugin-2.3.0.tgz",
+      "@vanilla-extract/webpack-plugin": "file:./file/vanilla-extract-webpack-plugin-2.3.0.tgz"
+    }
   }
 }

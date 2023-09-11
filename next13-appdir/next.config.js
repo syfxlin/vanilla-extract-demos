@@ -1,4 +1,4 @@
-const { createVanillaExtractPlugin } = require("@syfxlin/next-plugin-vanilla-extract");
+const { createVanillaExtractPlugin } = require("@vanilla-extract/next-plugin");
 const withVanillaExtract = createVanillaExtractPlugin();
 
 /** @type {import('next').NextConfig} */
