@@ -17,8 +17,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@vanilla-extract/next-plugin": "file:./file/vanilla-extract-next-plugin-2.3.0.tgz",
-      "@vanilla-extract/webpack-plugin": "file:./file/vanilla-extract-webpack-plugin-2.3.0.tgz"
+      "@vanilla-extract/next-plugin": "file:./file/vanilla-extract-next-plugin-2.3.1.tgz"
     }
   }
 }
